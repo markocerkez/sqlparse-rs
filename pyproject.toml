@@ -8,8 +8,8 @@ version = "0.1.0"
 description = "Rust-accelerated lexer and statement splitter for sqlparse"
 readme = "README.md"
 license = { text = "BSD-3-Clause" }
-requires-python = ">=3.9"
-dependencies = ["sqlparse>=0.5.0"]
+requires-python = ">=3.10"
+dependencies = ["sqlparse>=0.6.1,<0.7"]
 keywords = ["sql", "parser", "sqlparse", "rust"]
 classifiers = [
   "License :: OSI Approved :: BSD License",
